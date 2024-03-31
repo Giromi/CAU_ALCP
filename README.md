@@ -1,6 +1,8 @@
 
 # 참고자료
 
+[리눅스 코드](https://github.com/Giromi/CAU_ALCP/blob/main/자료/README.md)
+
 ### 비디오 프로토콜
 https://www.youtube.com/watch?v=JfYL0HwlR9w
 
