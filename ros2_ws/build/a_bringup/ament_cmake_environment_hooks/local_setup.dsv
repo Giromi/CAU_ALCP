@@ -1,0 +1,2 @@
+source;share/a_bringup/environment/ament_prefix_path.sh
+source;share/a_bringup/environment/path.sh

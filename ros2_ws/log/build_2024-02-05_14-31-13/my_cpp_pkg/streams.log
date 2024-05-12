@@ -1,0 +1,30 @@
+[0.190s] Invoking command in '/home/hansukim/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/hansukim/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.292s] [ 50%] Built target my_first_node
+[0.292s] [ 66%] Built target smartphone
+[0.297s] [ 83%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[8.754s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[9.160s] [100%] Built target robot_news_station
+[9.181s] Invoked command in '/home/hansukim/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/hansukim/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[9.262s] Invoking command in '/home/hansukim/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/hansukim/ros2_ws/build/my_cpp_pkg
+[9.277s] -- Install configuration: ""
+[9.277s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/my_first_node
+[9.278s] -- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[9.281s] -- Set runtime path of "/home/hansukim/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[9.281s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[9.281s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[9.281s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[9.282s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[9.282s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[9.282s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[9.282s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[9.282s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[9.282s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[9.283s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[9.283s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[9.283s] -- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[9.283s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[9.283s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[9.283s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[9.283s] -- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[9.297s] Invoked command in '/home/hansukim/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/hansukim/ros2_ws/build/my_cpp_pkg

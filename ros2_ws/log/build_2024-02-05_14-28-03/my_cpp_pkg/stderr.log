@@ -1,0 +1,10 @@
+[01m[K/home/hansukim/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::RobotNewsStationNode()[m[K’:
+[01m[K/home/hansukim/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:28:31:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid RobotNewsStationNode::Publish_start()[m[K’
+   28 |         [01;31m[KRobotNewsStationNode::Publish_start[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/hansukim/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:17:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   17 |     void [01;36m[KPublish_start[m[K()
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/robot_news_station.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

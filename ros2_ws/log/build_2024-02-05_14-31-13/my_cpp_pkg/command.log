@@ -1,0 +1,4 @@
+Invoking command in '/home/hansukim/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/hansukim/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+Invoked command in '/home/hansukim/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/hansukim/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+Invoking command in '/home/hansukim/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/hansukim/ros2_ws/build/my_cpp_pkg
+Invoked command in '/home/hansukim/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/hansukim/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,20 @@
+[0.193s] Invoking command in '/home/hansukim/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/hansukim/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.290s] [ 33%] Built target my_first_node
+[0.298s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[0.308s] [ 66%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[4.987s] [01m[K/home/hansukim/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::RobotNewsStationNode()[m[K’:
+[4.988s] [01m[K/home/hansukim/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:28:31:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid RobotNewsStationNode::Publish_start()[m[K’
+[4.988s]    28 |         [01;31m[KRobotNewsStationNode::Publish_start[m[K;
+[4.988s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.988s] [01m[K/home/hansukim/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:17:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.989s]    17 |     void [01;36m[KPublish_start[m[K()
+[4.989s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[6.721s] gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] 오류 1
+[6.721s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/robot_news_station.dir/all] 오류 2
+[6.721s] gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[16.554s] [ 83%] [32m[1mLinking CXX executable smartphone[0m
+[17.386s] [ 83%] Built target smartphone
+[17.388s] gmake: *** [Makefile:146: all] 오류 2
+[17.392s] Invoked command in '/home/hansukim/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/hansukim/ros2_ws/build/my_cpp_pkg -- -j8 -l8

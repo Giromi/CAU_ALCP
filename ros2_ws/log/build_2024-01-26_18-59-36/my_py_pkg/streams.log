@@ -1,0 +1,35 @@
+[0.680s] Invoking command in '/home/hansukim/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/hansukim/ros2_ws/build/my_py_pkg/prefix_override:/home/hansukim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/hansukim/ros2_ws/build/my_py_pkg/build install --record /home/hansukim/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.856s] running egg_info
+[0.869s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.870s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.870s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.870s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.895s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.896s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.896s] running build
+[0.896s] running build_py
+[0.896s] copying my_py_pkg/__init__.py -> /home/hansukim/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.896s] running install
+[0.897s] /home/hansukim/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.897s] !!
+[0.897s] 
+[0.897s]         ********************************************************************************
+[0.897s]         Please avoid running ``setup.py`` directly.
+[0.897s]         Instead, use pypa/build, pypa/installer or other
+[0.897s]         standards-based tools.
+[0.897s] 
+[0.897s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.897s]         ********************************************************************************
+[0.897s] 
+[0.897s] !!
+[0.897s]   self.initialize_options()
+[0.902s] running install_lib
+[0.914s] running install_data
+[0.927s] copying resource/my_py_pkg -> /home/hansukim/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.927s] copying package.xml -> /home/hansukim/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.927s] running install_egg_info
+[0.941s] removing '/home/hansukim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.941s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/hansukim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.942s] running install_scripts
+[1.057s] writing list of installed files to '/home/hansukim/ros2_ws/build/my_py_pkg/install.log'
+[1.080s] Invoked command in '/home/hansukim/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/hansukim/ros2_ws/build/my_py_pkg/prefix_override:/home/hansukim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/hansukim/ros2_ws/build/my_py_pkg/build install --record /home/hansukim/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

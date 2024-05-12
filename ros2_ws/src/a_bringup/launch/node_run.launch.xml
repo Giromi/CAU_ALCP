@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="my_cpp_pkg" exec="robot_news_station" name="robot_news_station"/>
+    <node pkg="my_cpp_pkg" exec="smartphone" name="smartphone"/>
+    </node>
+</launch>

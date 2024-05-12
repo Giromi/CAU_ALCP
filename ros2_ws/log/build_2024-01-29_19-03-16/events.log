@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000650] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000953] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001025] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.099365] (-) TimerEvent: {}
+[0.196540] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.199515] (-) TimerEvent: {}
+[0.204451] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.204771] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hansukim/ros2_ws/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/hansukim/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,25516,0'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'hansukim'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hansukim/ws_sensor_combined/install/px4_ros_com/lib:/home/hansukim/ws_sensor_combined/install/px4_ros2_cpp/lib:/home/hansukim/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hansukim'), ('OLDPWD', '/home/hansukim/ros2_ws/src/my_cpp_pkg/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1864'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hansukim/ws_sensor_combined/install:/home/hansukim/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansukim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansukim'), ('TERM', 'tmux'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/hansukim/.local/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/hansukim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansukim-15ZD90N-VX5BK:@/tmp/.ICE-unix/1638,unix/hansukim-15ZD90N-VX5BK:/tmp/.ICE-unix/1638'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0db227bf_e129_4c20_bd24_a47055f461fd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5LAAI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hansukim/ws_sensor_combined/install/px4_ros_com:/home/hansukim/ws_sensor_combined/install/example_mode_with_executor_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_manual_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_goto_cpp:/home/hansukim/ws_sensor_combined/install/example_local_navigation_cpp:/home/hansukim/ws_sensor_combined/install/example_global_navigation_cpp:/home/hansukim/ws_sensor_combined/install/px4_ros2_cpp:/home/hansukim/ws_sensor_combined/install/px4_msgs:/home/hansukim/ros2_ws/install/my_cpp_pkg:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansukim/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hansukim/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/home/hansukim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/hansukim/ws_sensor_combined/install/px4_ros_com:/home/hansukim/ws_sensor_combined/install/example_mode_with_executor_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_manual_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_goto_cpp:/home/hansukim/ws_sensor_combined/install/example_local_navigation_cpp:/home/hansukim/ws_sensor_combined/install/example_global_navigation_cpp:/home/hansukim/ws_sensor_combined/install/px4_ros2_cpp:/home/hansukim/ws_sensor_combined/install/px4_msgs:/home/hansukim/ros2_ws/install/my_cpp_pkg:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.253598] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299700] (-) TimerEvent: {}
+[0.400137] (-) TimerEvent: {}
+[0.500587] (-) TimerEvent: {}
+[0.564376] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600741] (-) TimerEvent: {}
+[0.622633] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.627623] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.640829] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.662978] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.694153] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700856] (-) TimerEvent: {}
+[0.801306] (-) TimerEvent: {}
+[0.808968] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.812192] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901455] (-) TimerEvent: {}
+[1.001949] (-) TimerEvent: {}
+[1.067942] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.102103] (-) TimerEvent: {}
+[1.202578] (-) TimerEvent: {}
+[1.303062] (-) TimerEvent: {}
+[1.384326] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.403204] (-) TimerEvent: {}
+[1.503676] (-) TimerEvent: {}
+[1.604160] (-) TimerEvent: {}
+[1.704681] (-) TimerEvent: {}
+[1.805120] (-) TimerEvent: {}
+[1.855259] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.905278] (-) TimerEvent: {}
+[1.944572] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.983344] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/hansukim/ros2_ws/build/my_cpp_pkg\n'}
+[2.005435] (-) TimerEvent: {}
+[2.051079] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[2.051514] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[2.105616] (-) TimerEvent: {}
+[2.206116] (-) TimerEvent: {}
+[2.306622] (-) TimerEvent: {}
+[2.407182] (-) TimerEvent: {}
+[2.507675] (-) TimerEvent: {}
+[2.608160] (-) TimerEvent: {}
+[2.708654] (-) TimerEvent: {}
+[2.809168] (-) TimerEvent: {}
+[2.909679] (-) TimerEvent: {}
+[3.010171] (-) TimerEvent: {}
+[3.110620] (-) TimerEvent: {}
+[3.211058] (-) TimerEvent: {}
+[3.311647] (-) TimerEvent: {}
+[3.412156] (-) TimerEvent: {}
+[3.512647] (-) TimerEvent: {}
+[3.613154] (-) TimerEvent: {}
+[3.713618] (-) TimerEvent: {}
+[3.814065] (-) TimerEvent: {}
+[3.914582] (-) TimerEvent: {}
+[4.015073] (-) TimerEvent: {}
+[4.115563] (-) TimerEvent: {}
+[4.216070] (-) TimerEvent: {}
+[4.316522] (-) TimerEvent: {}
+[4.417035] (-) TimerEvent: {}
+[4.517476] (-) TimerEvent: {}
+[4.617994] (-) TimerEvent: {}
+[4.718572] (-) TimerEvent: {}
+[4.819134] (-) TimerEvent: {}
+[4.919683] (-) TimerEvent: {}
+[5.020240] (-) TimerEvent: {}
+[5.120809] (-) TimerEvent: {}
+[5.221367] (-) TimerEvent: {}
+[5.321944] (-) TimerEvent: {}
+[5.422492] (-) TimerEvent: {}
+[5.523057] (-) TimerEvent: {}
+[5.623633] (-) TimerEvent: {}
+[5.724140] (-) TimerEvent: {}
+[5.824651] (-) TimerEvent: {}
+[5.925210] (-) TimerEvent: {}
+[6.025721] (-) TimerEvent: {}
+[6.126239] (-) TimerEvent: {}
+[6.226753] (-) TimerEvent: {}
+[6.327294] (-) TimerEvent: {}
+[6.427893] (-) TimerEvent: {}
+[6.528446] (-) TimerEvent: {}
+[6.628986] (-) TimerEvent: {}
+[6.729567] (-) TimerEvent: {}
+[6.830080] (-) TimerEvent: {}
+[6.930624] (-) TimerEvent: {}
+[7.031190] (-) TimerEvent: {}
+[7.131717] (-) TimerEvent: {}
+[7.232269] (-) TimerEvent: {}
+[7.332807] (-) TimerEvent: {}
+[7.433387] (-) TimerEvent: {}
+[7.533903] (-) TimerEvent: {}
+[7.634420] (-) TimerEvent: {}
+[7.734912] (-) TimerEvent: {}
+[7.835424] (-) TimerEvent: {}
+[7.935928] (-) TimerEvent: {}
+[8.036456] (-) TimerEvent: {}
+[8.136939] (-) TimerEvent: {}
+[8.230019] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable my_first_node\x1b[0m\n'}
+[8.237143] (-) TimerEvent: {}
+[8.337688] (-) TimerEvent: {}
+[8.438290] (-) TimerEvent: {}
+[8.477462] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target my_first_node\n'}
+[8.538457] (-) TimerEvent: {}
+[8.638930] (-) TimerEvent: {}
+[8.739414] (-) TimerEvent: {}
+[8.839912] (-) TimerEvent: {}
+[8.940380] (-) TimerEvent: {}
+[9.040848] (-) TimerEvent: {}
+[9.141328] (-) TimerEvent: {}
+[9.241762] (-) TimerEvent: {}
+[9.342209] (-) TimerEvent: {}
+[9.442634] (-) TimerEvent: {}
+[9.543067] (-) TimerEvent: {}
+[9.643593] (-) TimerEvent: {}
+[9.744030] (-) TimerEvent: {}
+[9.844483] (-) TimerEvent: {}
+[9.944975] (-) TimerEvent: {}
+[10.045445] (-) TimerEvent: {}
+[10.145877] (-) TimerEvent: {}
+[10.246315] (-) TimerEvent: {}
+[10.346741] (-) TimerEvent: {}
+[10.447176] (-) TimerEvent: {}
+[10.547657] (-) TimerEvent: {}
+[10.648156] (-) TimerEvent: {}
+[10.748657] (-) TimerEvent: {}
+[10.849253] (-) TimerEvent: {}
+[10.949811] (-) TimerEvent: {}
+[10.958248] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[11.049970] (-) TimerEvent: {}
+[11.150608] (-) TimerEvent: {}
+[11.251218] (-) TimerEvent: {}
+[11.351719] (-) TimerEvent: {}
+[11.383838] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target robot_news_station\n'}
+[11.404827] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[11.451867] (-) TimerEvent: {}
+[11.462989] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[11.480703] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hansukim/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/hansukim/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,25516,0'), ('LANGUAGE', 'ko:en_US:en'), ('USER', 'hansukim'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hansukim/ws_sensor_combined/install/px4_ros_com/lib:/home/hansukim/ws_sensor_combined/install/px4_ros2_cpp/lib:/home/hansukim/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hansukim'), ('OLDPWD', '/home/hansukim/ros2_ws/src/my_cpp_pkg/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1864'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hansukim/ws_sensor_combined/install:/home/hansukim/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hansukim'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hansukim'), ('TERM', 'tmux'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/hansukim/.local/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/hansukim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hansukim-15ZD90N-VX5BK:@/tmp/.ICE-unix/1638,unix/hansukim-15ZD90N-VX5BK:/tmp/.ICE-unix/1638'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0db227bf_e129_4c20_bd24_a47055f461fd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5LAAI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hansukim/ws_sensor_combined/install/px4_ros_com:/home/hansukim/ws_sensor_combined/install/example_mode_with_executor_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_manual_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_goto_cpp:/home/hansukim/ws_sensor_combined/install/example_local_navigation_cpp:/home/hansukim/ws_sensor_combined/install/example_global_navigation_cpp:/home/hansukim/ws_sensor_combined/install/px4_ros2_cpp:/home/hansukim/ws_sensor_combined/install/px4_msgs:/home/hansukim/ros2_ws/install/my_cpp_pkg:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hansukim/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hansukim/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/home/hansukim/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/hansukim/ws_sensor_combined/install/px4_ros_com:/home/hansukim/ws_sensor_combined/install/example_mode_with_executor_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_rtl_replacement_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_manual_cpp:/home/hansukim/ws_sensor_combined/install/example_mode_goto_cpp:/home/hansukim/ws_sensor_combined/install/example_local_navigation_cpp:/home/hansukim/ws_sensor_combined/install/example_global_navigation_cpp:/home/hansukim/ws_sensor_combined/install/px4_ros2_cpp:/home/hansukim/ws_sensor_combined/install/px4_msgs:/home/hansukim/ros2_ws/install/my_cpp_pkg:/home/hansukim/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[11.495371] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.495790] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/my_first_node\n'}
+[11.496543] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/hansukim/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/my_first_node" to ""\n'}
+[11.496791] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[11.498818] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/hansukim/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""\n'}
+[11.499110] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[11.499614] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[11.500631] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[11.500813] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[11.501042] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[11.501203] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[11.501436] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[11.501623] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[11.501833] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[11.502136] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[11.502285] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[11.502410] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[11.502552] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[11.502681] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[11.502802] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/hansukim/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[11.505235] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[11.552360] (-) TimerEvent: {}
+[11.653129] (-) TimerEvent: {}
+[11.753723] (-) TimerEvent: {}
+[11.854308] (-) TimerEvent: {}
+[11.865750] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[11.872500] (-) EventReactorShutdown: {}
