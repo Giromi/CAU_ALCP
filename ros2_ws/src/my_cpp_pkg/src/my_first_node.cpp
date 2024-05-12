@@ -7,7 +7,7 @@ class MyNode: public rclcpp::Node{
         counter++;
         RCLCPP_INFO(this->get_logger(),"Hello %d",counter);
     }
-    rclcpp::TimerBase::SharedPtr timer;
+    rclcpp::TimerBase::SharedPtr timer; //hello
 
     public:
     MyNode(): Node("cpp_test"),counter(0){
