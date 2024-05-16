@@ -1,3 +1,9 @@
+# ROS2 source code   
+CAU_ALCP에 들어간 후 ros2_ws를 본인 컴퓨터의 ros2_ws로 덮어씌워준다.   
+```bash
+cp -r CAU_ALCP/ros2_ws ~/
+```
+만약 **ros2_ws** workspace가 home에 위치하지 않는다면 `~/` 를 본인의 ros2_ws 의 상위 경로로 바꿔준다.   
 
 # 참고자료
 

@@ -1,5 +1,5 @@
 
-# ALCP3
+# Command Cheat Sheet
 
 terminal command\
 ls : list\
@@ -27,7 +27,7 @@ cp "option" "which" "where to" : copy command\
 cp -r : copy all included files\
 cp -i : ask are you sure about to rewrite same files\
 cp -v : visualize status of copy\
-cp -p : copy file and also file's owner information \
+cp -p : copy file and also file's owner information   
 
 ros2 command\
 colcon build --packages-select package_name : compile package(inside workspace)\
@@ -35,10 +35,10 @@ source install/setup.bash : update recent src(inside workspace)\
 ros2 run package_name executable_name : run node\
 ros2 run package_name executable_name --ros-args -r __node:=(name) : run node as (name)\
 rqt : open rqt debug pane\
-rqt_graph : open node graph\
+rqt_graph : open node graph   
 
 git command\
 . : github to vscode(at github site)\
 git clone "url": copy github's file\
 git pull :  get all github's code at current branch\
-git fetch : update github branch's code\
+git fetch : update github branch's code   
