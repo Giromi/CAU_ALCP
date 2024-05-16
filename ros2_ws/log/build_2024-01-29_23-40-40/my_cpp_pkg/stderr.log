@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:22 (nstall):
-  Unknown CMake command "nstall".
-
-[0m
-gmake: *** [Makefile:308: cmake_check_build_system] 오류 1

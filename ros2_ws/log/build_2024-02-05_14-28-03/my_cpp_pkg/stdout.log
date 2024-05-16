@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
-[ 50%] Built target my_first_node
-[ 66%] Built target smartphone
-[ 83%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m

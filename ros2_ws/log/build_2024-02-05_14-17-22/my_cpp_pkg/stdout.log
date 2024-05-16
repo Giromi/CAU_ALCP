@@ -1,7 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
-[35m[1mConsolidate compiler generated dependencies of target smartphone[0m
-[ 33%] Built target my_first_node
-[ 50%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
-[ 83%] [32m[1mLinking CXX executable smartphone[0m
-[ 83%] Built target smartphone

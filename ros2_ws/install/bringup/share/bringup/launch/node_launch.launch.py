@@ -1,1 +1,0 @@
-/home/hansukim/ros2_ws/src/bringup/launch/node_launch.launch.py
